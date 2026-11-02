@@ -5,14 +5,6 @@
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-work-dark.5ef87057.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/h-work-light.b963cb7e.svg" />
-    <img src="assets/h-work-light.b963cb7e.svg" height="46" alt="Current Work" />
-  </picture>
-</p>
-
-<p align="center">
   <a href="https://github.com/ethqnol/strata-mojo">
     <img src="assets/strata-card.66e685c5.svg" width="760" alt="Strata: native machine learning and linear algebra for Mojo, with scikit-learn-compatible estimators" />
   </a>
@@ -21,26 +13,10 @@
 <br />
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-skills-dark.0ce19975.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/h-skills-light.4bf8a7b5.svg" />
-    <img src="assets/h-skills-light.4bf8a7b5.svg" height="46" alt="Skills" />
-  </picture>
-</p>
-
-<p align="center">
   <img src="https://skillicons.dev/icons?i=rust,cpp,c,py,ts,threejs,git,github&perline=8" alt="Rust, C++, C, Python, TypeScript, three.js, Git, GitHub" />
 </p>
 
 <br />
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.d39ace03.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/h-activity-light.b2161c97.svg" />
-    <img src="assets/h-activity-light.b2161c97.svg" height="46" alt="Contribution Activity" />
-  </picture>
-</p>
 
 <p align="center">
   <picture>
