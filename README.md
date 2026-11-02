@@ -1,4 +1,4 @@
-<img src="assets/banner.5b200d7f.svg" width="100%" alt="hi there, welcome to the pond (koi swimming in a lily pond)" />
+<img src="assets/banner.7a4e6391.svg" width="100%" alt="hi there, welcome to the pond (koi swimming in a lily pond)" />
 
 <p align="center">
   <a href="https://github.com/ethqnol/strata-mojo">
@@ -35,7 +35,7 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.adca7041.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.adca7041.svg" />
-  <img src="assets/footer-light.adca7041.svg" width="100%" alt="" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.ebad3fce.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.ebad3fce.svg" />
+  <img src="assets/footer-light.ebad3fce.svg" width="100%" alt="" />
 </picture>
