@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  🤖 building <b>VEX</b> robots with team <b>2982Z</b><br />
+  🔭 currently working on <b>Strata / VEX</b> with team <b>2982Z</b><br />
   🌱 currently learning <b>Rust</b><br />
   🍕 fun fact: i love pizza
 </p>
