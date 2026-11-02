@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+<img src="koi/koi.gif" width="256" alt="My koi" />
+
 
 
 - 🔭 I’m currently working on ... Strata/VEX
