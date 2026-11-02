@@ -1,0 +1,41 @@
+# Redraws pond/snake-*.svg: an orange koi eating through the contribution graph.
+name: Pond
+
+on:
+  schedule:
+    # 40 minutes after the koi workflow, so the two never push at once.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/pond.yml]
+
+permissions:
+  contents: write
+
+concurrency: koi
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: mkdir -p pond
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            pond/snake-dark.svg?color_snake=#ff8c42&color_dots=#161b22,#0b3b4a,#0f6378,#1890a8,#4fc9db
+            pond/snake-light.svg?color_snake=#e8590c&color_dots=#ebedf0,#bfe6ec,#7ccfdc,#2fa3b9,#0e7490
+      - name: Commit the pond if it changed
+        shell: bash
+        run: |
+          git add pond
+          if git diff --cached --quiet; then
+            echo "The pond is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "pond: redraw the contribution snake"
+          git pull --quiet --rebase
+          git push --quiet
