@@ -11,7 +11,7 @@
 <p align="center">
   <img src="koi/koi.gif" width="256" alt="My koi" />
   <br />
-  <sub><i>this koi is drawn from my GitHub activity and redrawn every night — it grows when I commit</i></sub>
+  <sub><i>drawn from daily GitHub activity</i></sub>
 </p>
 
 <br />
