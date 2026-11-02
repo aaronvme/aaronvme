@@ -19,6 +19,7 @@
   <a href="https://doc.rust-lang.org/"><img src="https://skillicons.dev/icons?i=rust" width="48" height="48" alt="Rust" title="Rust docs" /></a>&nbsp;
   <a href="https://docs.modular.com/mojo/"><img src="assets/mojo-tile.fbc04322.png" width="48" height="48" alt="Mojo" title="Mojo docs" /></a>&nbsp;
   <a href="https://www.typescriptlang.org/docs/"><img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" title="TypeScript docs" /></a>&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" title="JavaScript docs" /></a>&nbsp;
   <a href="https://threejs.org/docs/"><img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="three.js" title="three.js docs" /></a>&nbsp;
   <a href="https://git-scm.com/doc"><img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" title="Git docs" /></a>&nbsp;
   <a href="https://docs.github.com/"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" title="GitHub docs" /></a>
