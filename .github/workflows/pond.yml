@@ -26,6 +26,8 @@ jobs:
           outputs: |
             pond/snake-dark.svg?color_snake=#ff8c42&color_dots=#161b22,#0b3b4a,#0f6378,#1890a8,#4fc9db
             pond/snake-light.svg?color_snake=#e8590c&color_dots=#ebedf0,#bfe6ec,#7ccfdc,#2fa3b9,#0e7490
+      - name: Drop the progress bar under the grid (image size unchanged)
+        run: sed -i -E 's#<rect class="u [^"]*"[^>]*/>##g' pond/snake-dark.svg pond/snake-light.svg
       - name: Commit the pond if it changed
         shell: bash
         run: |
