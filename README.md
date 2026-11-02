@@ -1,56 +1,52 @@
-<img src="assets/banner.svg" width="100%" alt="hi there, welcome to the pond — koi swimming in a lily pond" />
+<img src="assets/banner.svg" width="100%" alt="Open-source developer: Machine Learning & Systems" />
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/tagline-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/tagline-light.svg" />
-    <img src="assets/tagline-light.svg" width="720" alt="building robots with VEX team 2982Z · learning Rust · writing C++, Python & TypeScript · thinking about pizza" />
+    <img src="assets/tagline-light.svg" width="720" alt="Building Strata, a native machine learning library for Mojo · Scikit-learn-compatible estimators with SIMD and LAPACK · Writing Mojo, C++, Python, and TypeScript · Currently learning Rust" />
   </picture>
 </p>
 
 <p align="center">
-  <img src="koi/koi.gif" width="256" alt="My koi" />
-  <br />
-  <sub><i>drawn from daily GitHub activity</i></sub>
+  <img src="koi/koi.gif" width="256" alt="Pixel-art koi drawn from my GitHub activity" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/h-work-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/h-work-light.svg" />
+    <img src="assets/h-work-light.svg" height="46" alt="Current Work" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ethqnol/strata-mojo">
+    <img src="assets/strata-card.svg" width="760" alt="Strata: native machine learning and linear algebra for Mojo, with scikit-learn-compatible estimators" />
+  </a>
 </p>
 
 <br />
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/h-about-light.svg" />
-    <img src="assets/h-about-light.svg" height="48" alt="about me" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/h-stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/h-stack-light.svg" />
+    <img src="assets/h-stack-light.svg" height="46" alt="Tech Stack" />
   </picture>
 </p>
 
 <p align="center">
-  🔭 currently working on <b>Strata / VEX</b> with team <b>2982Z</b><br />
-  🌱 currently learning <b>Rust</b><br />
-  🍕 fun fact: i love pizza
+  <img src="https://skillicons.dev/icons?i=rust,cpp,c,py,ts,threejs,git,github&perline=8" alt="Rust, C++, C, Python, TypeScript, three.js, Git, GitHub" />
 </p>
 
 <br />
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-tools-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/h-tools-light.svg" />
-    <img src="assets/h-tools-light.svg" height="48" alt="my toolbox" />
-  </picture>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,c,py,rust,ts,threejs,git,github&perline=8" alt="C++, C, Python, Rust, TypeScript, three.js, Git, GitHub" />
-</p>
-
-<br />
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/h-pond-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/h-pond-light.svg" />
-    <img src="assets/h-pond-light.svg" height="48" alt="the pond" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/h-activity-light.svg" />
+    <img src="assets/h-activity-light.svg" height="46" alt="Contribution Activity" />
   </picture>
 </p>
 
@@ -58,14 +54,12 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="pond/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="pond/snake-light.svg" />
-    <img src="pond/snake-light.svg" width="100%" alt="an orange koi snaking through my contribution graph" />
+    <img src="pond/snake-light.svg" width="100%" alt="Contribution graph animation" />
   </picture>
-  <br />
-  <sub><i>a hungry koi eating its way through my contribution graph, refreshed daily</i></sub>
 </p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" />
-  <img src="assets/footer-light.svg" width="100%" alt="thanks for stopping by the pond" />
+  <img src="assets/footer-light.svg" width="100%" alt="Thanks for visiting" />
 </picture>
